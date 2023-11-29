@@ -1,0 +1,144 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_cause",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "_beneficiaryAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_campaignDuration",
+				"type": "uint256"
+			}
+		],
+		"name": "crearCampana",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_campaignId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_donationAmount",
+				"type": "uint256"
+			}
+		],
+		"name": "donar",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_campaignId",
+				"type": "uint256"
+			}
+		],
+		"name": "retiroDeFondos",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "campaigns",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "numDonors",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "totalRaised",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "cause",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "beneficiaryAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "campaignStartTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "campaignDuration",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_campaignId",
+				"type": "uint256"
+			}
+		],
+		"name": "informacionDeCampana",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "numDonors",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "totalRaised",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "cause",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "beneficiaryAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "campaignStartTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "campaignDuration",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
